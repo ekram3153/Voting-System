@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding:0px ;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin-left: 23px;
+    margin-top: 8px;
+    /* border: 2px solid rgb(221, 214, 214); */
+    border-radius: 40px;
+    /* background-color: rgb(149, 46, 46); */
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+#navbar ul {
+        display: flex;
+        border-radius: 2px solid #7a3030;
+}
+#navbar  ul li {
+    display: flex;
+    margin: 45px;
+    padding: 7px;
+    margin-top: 20px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    margin-top: 25px;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    
+    
+}
+#navbar::before{
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(174, 174, 174);
+    top: 0px;        
+    left: 0px;
+    opacity: 0;
+    z-index: -1;
+}
+#navbar ul li a:hover{
+      color: black;
+      background-color: white;
+}
+.primary {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(219, 155, 5);
+    font-size: 2rem;
+}
+#home p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(247, 247, 247);
+    padding: 20px;
+    text-align: center;
+    margin: 20px 250px;
+    font-size: 1.4rem;
+}
+
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 715px;
+    font-size: 1.2rem;
+    padding: 5px 7px;
+    border-radius: 10px;
+    
+}
+#btn:hover{
+    color: rgb(255, 254, 254);
+    background-color: rgb(68, 67, 67);
+}
+#home::before{
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: -20px;
+    top: 0px;
+    left: 0px;
+    background:url(../home_election.png.jpg)no-repeat center center/cover;
+    opacity: 0.9;
+    z-index: -1;
+}
+#service h1{
+     margin-top: 600px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:13px ;
+}
+#ser{
+    display: flex;
+    margin: 34px;
+   
+}
+#ser .box img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 145px;
+}
+#ser .box{
+    border: 2px solid #663030;
+    margin: 5px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    /* text-align: center; */
+
+    height: 400px;
+    background-color: antiquewhite;
+}
+#ser .box p{
+    font-size: 1.1rem;
+   
+}
+.Vote img{
+    height: 300px;
+    width: 100%;
+    
+}
+#serr{
+    display: flex;
+}
+#serr .boxx{
+    /* border: 2px solid #663030; */
+    margin: 0px;
+    width: 50%;
+    /* padding: 40px 30px; */
+    border-radius: 10px;
+    /* text-align: center; */
+
+    height: 400px;
+    background-color: antiquewhite;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding: 3px;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+.boxx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{ 
+     margin: 50px;
+     width: 150px;
+    height: 70px;
+}
+/* .bjp ::before{
+        content: " ";
+        position: absolute;
+        background: url(../election_congressss.jpg)no-repeat center/cover;
+        height: 50px;
+        width: 50px;
+        opacity: 0.5;
+        z-index: -1;
+} */
+#b{
+    background:url(../bjplogo.jpg)no-repeat center center/cover;
+    background-size: 49%;
+    /* background-color: orange; */
+}
+#c{
+    background: url(../election_congress_logo.jpg) no-repeat center center/cover;
+    background-size: 49%;
+}
+#n{
+    background:url(../election_nota.png) no-repeat center center/cover;
+    background-size: 49% ;
+}
+.bjp h1{
+    text-align: center;
+    margin-top: -13%;
+}
+.congress h1{
+      text-align: center;
+      margin-top: -13%;
+}
+.nota h1{
+      text-align: center;
+      margin-top: -13%;
+}
+#serr img{
+    height: 100%;
+    width: 100%;
+
+}
+#Exersie.form-group1 ul{
+    border-radius: 4px solid #000000;
+}
+#Exersie_box::before{
+    content: " ";
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 50%;
+    height: 650px;
+    width: 50%;
+    background: url(../election_votehalfpart.png)no-repeat center center/cover;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: -50px;
+    margin: 20px;
+  
+}
+#contact-box::before{
+    content: " ";
+    position: absolute;
+    margin-top: -4px;
+    height: 50%;
+    width: 100%;
+    background: url(../feedback.jpg)no-repeat center center/cover;
+    opacity: 0.9;
+    z-index: -1;
+}
+.form-groupVote{
+    margin-top: -400px;
+    padding: 5px;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+#result2{
+    background-color: aliceblue;
+    margin-top: 120px;
+}
